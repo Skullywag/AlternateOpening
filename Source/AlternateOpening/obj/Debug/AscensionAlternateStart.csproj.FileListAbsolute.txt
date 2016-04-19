@@ -1,0 +1,5 @@
+C:\Users\mjsku\Desktop\RimWorldAlpha12dWin\RimWorld914Win\Mods\AscensionAlternateOpening\Source\AscensionAlternateStart\obj\Debug\AscensionAlternateStart.csprojResolveAssemblyReference.cache
+C:\Users\mjsku\Desktop\RimWorldAlpha12dWin\RimWorld914Win\Mods\AscensionAlternateOpening\Source\AscensionAlternateStart\bin\Debug\AscensionAlternateStart.dll
+C:\Users\mjsku\Desktop\RimWorldAlpha12dWin\RimWorld914Win\Mods\AscensionAlternateOpening\Source\AscensionAlternateStart\bin\Debug\AscensionAlternateStart.pdb
+C:\Users\mjsku\Desktop\RimWorldAlpha12dWin\RimWorld914Win\Mods\AscensionAlternateOpening\Source\AscensionAlternateStart\obj\Debug\AscensionAlternateStart.dll
+C:\Users\mjsku\Desktop\RimWorldAlpha12dWin\RimWorld914Win\Mods\AscensionAlternateOpening\Source\AscensionAlternateStart\obj\Debug\AscensionAlternateStart.pdb

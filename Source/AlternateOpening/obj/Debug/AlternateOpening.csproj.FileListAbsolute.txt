@@ -1,0 +1,10 @@
+C:\Users\mjsku\Desktop\RimWorld1131WinDev\Mods\AlternateOpening\Source\AlternateOpening\obj\Debug\AlternateOpening.csprojResolveAssemblyReference.cache
+C:\Users\mjsku\Desktop\RimWorld1131WinDev\Mods\AlternateOpening\Source\AlternateOpening\bin\Debug\AlternateOpening.dll
+C:\Users\mjsku\Desktop\RimWorld1131WinDev\Mods\AlternateOpening\Source\AlternateOpening\bin\Debug\AlternateOpening.pdb
+C:\Users\mjsku\Desktop\RimWorld1131WinDev\Mods\AlternateOpening\Source\AlternateOpening\obj\Debug\AlternateOpening.dll
+C:\Users\mjsku\Desktop\RimWorld1131WinDev\Mods\AlternateOpening\Source\AlternateOpening\obj\Debug\AlternateOpening.pdb
+C:\Users\mjsku\Desktop\RimWorldAlpha13Win\RimWorld1135Win\Mods\AlternateOpening\Source\AlternateOpening\bin\Debug\AlternateOpening.dll
+C:\Users\mjsku\Desktop\RimWorldAlpha13Win\RimWorld1135Win\Mods\AlternateOpening\Source\AlternateOpening\bin\Debug\AlternateOpening.pdb
+C:\Users\mjsku\Desktop\RimWorldAlpha13Win\RimWorld1135Win\Mods\AlternateOpening\Source\AlternateOpening\obj\Debug\AlternateOpening.csprojResolveAssemblyReference.cache
+C:\Users\mjsku\Desktop\RimWorldAlpha13Win\RimWorld1135Win\Mods\AlternateOpening\Source\AlternateOpening\obj\Debug\AlternateOpening.dll
+C:\Users\mjsku\Desktop\RimWorldAlpha13Win\RimWorld1135Win\Mods\AlternateOpening\Source\AlternateOpening\obj\Debug\AlternateOpening.pdb

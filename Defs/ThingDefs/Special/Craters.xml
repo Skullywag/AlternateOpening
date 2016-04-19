@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+  <ThingDef>
+    <defName>Crater</defName>
+    <category>Ethereal</category>
+    <label>crater</label>
+    <thingClass>AlternateOpening.Crater</thingClass>
+    <graphicData>
+      <texPath>Things/Special/Crater</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Lifespan">
+        <compClass>AlternateOpening.CompFade</compClass>
+        <lifespanTicks>3600000</lifespanTicks>
+      </li>
+    </comps>
+    <size>(3,3)</size>
+    <altitudeLayer>Floor</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <drawOffscreen>true</drawOffscreen>
+    <selectable>false</selectable>
+    <tickerType>Rare</tickerType>
+  </ThingDef>
+  
+</Buildings>
