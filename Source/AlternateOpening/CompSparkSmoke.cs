@@ -37,9 +37,13 @@ namespace AlternateOpening
                 {
                     damagedCells.Add(cell);
                 }
-                if (Props.damageCellChance < new Random().NextDouble())
+                if (Props.extraDamageCellsInt > 0)
                 {
-                    damagedCells.Add(cell);
+                    for(int i = 0; i < Props.extraDamageCellsInt; i++)
+                    if (Props.extraDamageCellChance > new Random().NextDouble())
+                    {
+                        damagedCells.Add(cell);
+                    }
                 }
             }
         }
@@ -52,27 +56,32 @@ namespace AlternateOpening
         {
             base.CompTick();
             // Throw smoke mote
-            if (Props.smoke) {
-                if (Rand.Value < Props.smokeChance)
+            foreach (IntVec3 currentCell in damagedCells)
+            {
+                if (Props.smoke)
                 {
-                    ThrowSmokeBlack(parent.Position.ToVector3Shifted(), 0.5f);
-                }
-            }
-            if (Props.spark) {
-                // Setup a new spark effect
-                sparks = new Effecter(DefDatabase<EffecterDef>.GetNamed("ElectricShort"));
-                // If we have a spark effecter
-                if (sparks != null)
-                {
-                    if (Rand.Value < Props.sparkChance)
+                    if (Rand.Value < Props.smokeChance)
                     {
-                        // Continue effect
-                        sparks.EffectTick(parent.Position, parent);
-                        sparks.Cleanup();
-                        sparks = null;
+                        ThrowSmokeBlack(parent.Position.ToVector3Shifted(), 0.5f);
                     }
                 }
-            }
+                if (Props.spark)
+                {
+                    // Setup a new spark effect
+                    sparks = new Effecter(DefDatabase<EffecterDef>.GetNamed("ElectricShort"));
+                    // If we have a spark effecter
+                    if (sparks != null)
+                    {
+                        if (Rand.Value < Props.sparkChance)
+                        {
+                            // Continue effect
+                            sparks.EffectTick(parent.Position, parent);
+                            sparks.Cleanup();
+                            sparks = null;
+                        }
+                    }
+                }
+            }          
         }
         public static void ThrowSmokeBlack(Vector3 loc, float size)
         {

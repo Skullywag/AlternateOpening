@@ -26,6 +26,7 @@ namespace AlternateOpening
         }
         public override void Tick()
         {
+            base.Tick();
             // If we havent opened yet
             if (opened == false)
             {

@@ -10,8 +10,8 @@ namespace AlternateOpening
         public float smokeChance;
         public bool spark;
         public float sparkChance;
-        public int damageCellsInt;
-        public float damageCellChance;
+        public int extraDamageCellsInt;
+        public float extraDamageCellChance;
 
         public CompProperties_SparkSmoke()
         {
